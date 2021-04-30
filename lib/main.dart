@@ -7,7 +7,6 @@ void main() => runApp(MaterialApp(home: Home()));
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    DateTime now = DateTime.now();
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFFEFEFEF),
